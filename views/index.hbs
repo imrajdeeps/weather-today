@@ -1,0 +1,37 @@
+{{!-- Header --}}
+{{>header}}
+
+{{!-- SearchBar --}}
+{{>searchBar}}
+
+<!-- main Box -->
+<div class="main container-fluid">
+    <!-- time -->
+    <div class="row">
+        <div class="col-11 m-auto py-4" id="timeBox">
+        </div>
+    </div>
+
+    <!-- temp -->
+    <div class="row text-light">
+        <div class="col-11 m-auto py-4 d-flex justify-content-between">
+            <div class="col-7" id="current-details">
+            </div>
+            <div class="fs-3 text-center" id="w-icon-type">
+            </div>
+        </div>
+    </div>
+
+    <!-- current-weather-items -->
+    <div class="row bg-light lead">
+        <div class="col-11 m-auto py-4">
+            <p>Current details</p>
+            <div class="col-12 col-lg-5 col-xl-4" id="current-weather-items">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end main Box -->
+
+{{!-- Footer --}}
+{{>footer}}

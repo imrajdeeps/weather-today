@@ -1,0 +1,28 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.errorBox {
+  background-image: linear-gradient(#169dd9, #169dd9, white);
+  color: white;
+}
+
+.errorBox .msg {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-image: linear-gradient(#169dd9, white);
+  display: none;
+}
+
+.form {
+  background-color: hsl(199, 83%, 38%);
+}
+
+.current-temp {
+  text-shadow: 3px 3px #169dd9;
+}
